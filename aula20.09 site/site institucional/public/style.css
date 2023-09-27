@@ -32,14 +32,23 @@ body{
     margin: 30px 40px 10px 10px;
     transition: .3s; color: aqua;
 }
+.footer ul{
+   list-style: none;
+   align-items: end;
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   color: black;
+}
 a {
     text-decoration: none; color: aliceblue;
  }
  .boxes{
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
     margin: 30px 20px 70px 0px;
+    border: solid 3px white;
+
 
  }
  .box{
@@ -51,10 +60,15 @@ a {
 
  }
  .banner{
-    background-image: url(assents/img/bg-jelly-fish-para_outras_pags.png);
+    background-image: url(assents/img/image.png);
     width: 100%;
     height: 600px;
  }
+ .banner2{
+   background-image: url(assents/img/image.png);
+   width: 100%;
+   height: 763px;
+}
  .banner .container{
     justify-content: center;
     align-items: center;
@@ -62,7 +76,7 @@ a {
     padding-top: 30px;
  }
  .social{
-    background-color: #e5e5e5;
+    background-color: grey;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -72,6 +86,7 @@ a {
     display: flex;
     flex-direction: column;
     padding: 16px;
+    width: 500px;
 
  }
  .box img{
@@ -85,8 +100,8 @@ a {
     color: aqua;
  }
  .container p{
-    color: #ffffff;
-    font-size: 30px;
+    color: aqua;
+    font-size: 28px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     justify-content: space-evenly;
     display: flex;
@@ -103,22 +118,23 @@ a {
     background-color: #4b4f4f;
     justify-content: space-evenly;
     display: flex;
-    align-items: center;    
+    align-items: star;    
  }
  .card{
     width: 100%;
-    background-color: #e5e5e5;
+    /*background-color: #e5e5e5;*/
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    color: #6623d2;
+    color: aqua;
     
  }
  .card h2{
     margin: 0;
     font-size: 30px;
+    color: white;
  }
 .formulario{
     display: flex;
@@ -132,26 +148,39 @@ a {
 .formulario span{
     font-size: 15px;
     font-weight: 800;
+    color: white;
+    display: flex;
+    
 }
 .formulario input{
     border-radius: 16px;
     text-align: center;
     border: none;
-    justify-content: space-between;
+    justify-content: space-evenly;
     cursor: pointer;
+    width: 200px;
+    height: 30px;
     
 }   
 .formulario button{
     border-radius: 16px;
     text-align: center;
-    background-color: black;
+    background-color: grey;
     border: none;
-    width: 60px ;
+    width: 200px ;
     color: white;
     justify-content: center;
     align-items: center;
-    height: 20px;
+    height: 30px;
 }
 .login .container{
     justify-content: center;
+}
+.footer .github{
+   height: 1px;
+   width: 1px;
+   display: flex;
+}
+ul {
+   width: 1px;
 }

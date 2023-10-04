@@ -47,7 +47,8 @@ a {
     display: flex;
     justify-content: space-evenly;
     margin: 30px 20px 70px 0px;
-    border: solid 3px white;
+    border-radius: solid 3px white;
+    
 
 
  }
@@ -61,13 +62,17 @@ a {
  }
  .banner{
     background-image: url(assents/img/image.png);
+    background-size: 2000px;
     width: 100%;
     height: 600px;
+    background-repeat: no-repeat;
  }
  .banner2{
    background-image: url(assents/img/image.png);
    width: 100%;
-   height: 80%;
+   height: 535px;
+   background-repeat: no-repeat;
+   background-size: 2000px;
 }
  .banner .container{
     justify-content: center;
@@ -131,6 +136,7 @@ a {
     justify-content: space-between;
     flex-direction: column;
     color: aqua;
+    height: 80%;
     
  }
  .card h2{
@@ -187,6 +193,6 @@ a {
 ul {
    width: 1px;
 }
-.campo{
-   border: solid 3px  color #fff;
+a: :active{
+   color:aqua
 }
